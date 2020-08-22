@@ -9,7 +9,7 @@
     var iam = 'I am Yadu(nandan).. 25';
     var iami = 0;
 
-    var desc = "I am a Dart / Flutter developer at CWS, Mysore, Karnataka, IN.\nI would like to design things mostly by code,\nDart, Golang and Java makes me happy and javascript doesn't but will do, I reside at the fine line between OOP and Functional practices, Always looking for better opertunities where I could play with redis and other noSQL DBs, I will containerize your apps and I'll maintain Linux <3 VM instances for you,\n\nEnter 'contact' to see contact details ";
+    var desc = "Hi, I develop Android/ios apps at CWS, Mysore, Karnataka, IN.\nI would like to design things mostly by code,\nDart, Golang, Java and JavaScript makes me happy, Always looking for better opertunities where I could play with redis and other noSQL DBs, I will containerize your apps and I'll maintain Linux <3 VM instances for you,\n\nEnter 'contact' to see contact details ";
     var desci = 0;
     var mailto = 'mailto:iam@yadunandan.xyz';
     var mailto_visible = 'iam@yadunandan.xyz';
