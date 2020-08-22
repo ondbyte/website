@@ -10,6 +10,10 @@ app.get('/', (req, res) => {
 
 app.use(express.static(__dirname + '/website'))
 
+app.use((req, res)=>{
+    res.redirect('/')
+})
+
 app.listen(port, () => {
     console.log(`app listening at http://localhost:${port}`)
   })
