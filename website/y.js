@@ -6,10 +6,10 @@
     }
 
     var speed = 10;
-    var iam = 'I am Yadu(nandan).. 25';
+    var iam = 'Hi, I am Yadu(nandan).. 25';
     var iami = 0;
 
-    var desc = "Hi, I develop Android/ios apps at CWS, Mysore, Karnataka, IN.\nI would like to design things mostly by code,\nDart, Golang, Java and JavaScript makes me happy, Always looking for better opertunities where I could play with redis and other noSQL DBs, I will containerize your apps and I'll maintain Linux <3 VM instances for you,\n\nEnter 'contact' to see contact details ";
+    var desc = "I develop Android/ios apps at CWS, Mysore, Karnataka, IN.\nI would like to design things mostly by code,\nDart, Golang, Java and JavaScript makes me happy, Always looking for better opertunities where I could play with redis and other noSQL DBs, I will containerize your apps and I'll maintain Linux <3 VM instances for you,\n\nEnter 'contact' to see contact details ";
     var desci = 0;
     var mailto = 'mailto:iam@yadunandan.xyz';
     var mailto_visible = 'iam@yadunandan.xyz';
