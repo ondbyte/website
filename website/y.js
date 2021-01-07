@@ -6,12 +6,12 @@
     }
 
     var speed = 10;
-    var iam = 'Hi, I am Yadu(nandan).. 25';
+    var iam = 'Hi, I am Yadu(nandan).. 26';
     var iami = 0;
 
-    var desc = "I develop Android/ios apps at CWS, Mysore, Karnataka, IN.\nI would like to design things mostly by code,\nDart, Golang, Java and JavaScript makes me happy, Always looking for better opertunities where I could play with redis and other noSQL DBs, I will containerize your apps and I'll maintain Linux <3 VM instances for you,\n\nEnter 'contact' to see contact details ";
+    var desc = "I grow Flutter apps for www.bigmints.com, Dubai, AE.\nI like to design things mostly by code,\nDart, Golang, Java and TypeScript makes me happy, Always looking for better opportunities where I could play with redis and other noSQL DBs, I will containerize your apps and I'll maintain Linux <3 VM instances for you,\n\nEnter 'contact' to see my contact details ";
     var desci = 0;
-    var mailto = 'mailto:iam@yadunandan.xyz';
+    var mailto = 'mailto:iamyadunandan@gmail.com';
     var mailto_visible = 'iam@yadunandan.xyz';
     var website = 'http://www.yadunandan.xyz';
     var website_visible = 'yadunandan.xyz';
