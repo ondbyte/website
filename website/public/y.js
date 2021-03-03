@@ -6,10 +6,10 @@
     }
 
     var speed = 10;
-    var iam = 'Hi, I am Yadu(nandan).. 26';
+    var iam = 'Hi, I am Yadu(nandan).. 27';
     var iami = 0;
 
-    var desc = "I grow Flutter apps for www.bigmints.com, Dubai, AE.\nI like to design things mostly by code,\nDart, Golang, Java and TypeScript makes me happy, Always looking for better opportunities where I could play with redis and other noSQL DBs, I will containerize your apps and I'll maintain Linux <3 VM instances for you,\n\nEnter 'contact' to see my contact details ";
+    var desc = "Lead developer at www.bigmints.com, Dubai, AE.\nI like to design things mostly by code,\nDart, Golang, Java and TypeScript makes me happy, Always looking for better opportunities where I could play with redis and other noSQL DBs, I will containerize your apps and I'll maintain Linux <3 VM instances for you,\n\nEnter 'contact' to see my contact details ";
     var desci = 0;
     var mailto = 'mailto:iamyadunandan@gmail.com';
     var mailto_visible = 'iam@yadunandan.xyz';
