@@ -9,10 +9,10 @@
     var iam = 'Hi, I am Yadu(nandan).. 27';
     var iami = 0;
 
-    var desc = "Lead developer at www.bigmints.com, Dubai, AE.\nI like to design things mostly by code,\nDart, Golang, Java and TypeScript makes me happy, Always looking for better opportunities where I could play with redis and other noSQL DBs, I will containerize your apps and I'll maintain Linux <3 VM instances for you,\n\nEnter 'contact' to see my contact details ";
+    var desc = "Lead developer at www.bigmints.com, Dubai, AE. I like to design things mostly by code, Dart, Golang, Java, JavaScript & TypeScript makes me happy, Always looking for better opportunities where I could play with redis and other noSQL DBs as well as Relational DBs, I will containerize your apps and I'll maintain Linux <3 VM instances for you,\n\n\Run 'contact' to see my contact details ";
     var desci = 0;
     var mailto = 'mailto:iamyadunandan@gmail.com';
-    var mailto_visible = 'iam@yadunandan.xyz';
+    var mailto_visible = 'iamyadunandan@gmail.com';
     var website = 'http://www.yadunandan.xyz';
     var website_visible = 'yadunandan.xyz';
     var linked_in = 'https://in.linkedin.com/in/yadu';
@@ -96,7 +96,7 @@ $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |  $$ |$$\\ $$   ____|
         if (text == "contact") {
             document.getElementById("contact").remove();
             var ph = document.getElementById("four-text").innerHTML;
-            document.getElementById("four-text").innerHTML = ph + "contact <br> 'contact' must be root (did you forget sudo) <br>" + commandLine + inputHtml;
+            document.getElementById("four-text").innerHTML = ph + "contact <br>     E: Could not open lock file /var/my/contact/lock - open (13: Permission denied) <br>    E: Unable to lock the contact directory (/var/my/contact/), are you root? <br>" + commandLine + inputHtml;
             document.getElementById("contact").addEventListener('input', processContinue);
             document.getElementById("contact").focus();
         } else if (text == 'sudocontact' || text == 'sudo contact') {
