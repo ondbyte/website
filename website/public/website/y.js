@@ -9,7 +9,7 @@
     var iam = 'Hi, I am Yadu(nandan).. 27';
     var iami = 0;
 
-    var desc = "Lead developer at www.bigmints.com, Dubai, AE. I like to design things mostly by code, Dart, Golang, Java, JavaScript & TypeScript makes me happy, Always looking for better opportunities where I could play with redis and other noSQL DBs as well as Relational DBs, I will containerize your apps and I'll maintain Linux <3 VM instances for you,\n\n\Run 'contact' to see my contact details ";
+    var desc = "I currently freelancing for a Indian startup, previously donned the roles of lead software developer and software engineer positions, for companies within india and outside india. I like to design things mostly by code, Dart, Golang, Java, JavaScript & TypeScript makes me happy, Always looking for better opportunities where I could play with redis and other noSQL DBs as well as Relational DBs, I will containerize your apps and I'll maintain Linux <3 VM instances for you,";
     var desci = 0;
     var mailto = 'mailto:iamyadunandan@gmail.com';
     var mailto_visible = 'iamyadunandan@gmail.com';
@@ -21,7 +21,9 @@
     var github_visible = 'github.com/ondbyte';
     var so = 'https://stackoverflow.com/users/12341099/yadu';
     var so_visible = 'stackoverflow.com/yadu';
-    var contact = '<a href="' + mailto + '" target="_blank" rel="noopener"><i class="fa fa-envelope" style="font-size:inherit"></i> ' + mailto_visible + '</a><br><a href="' + website + '" target="_blank" rel="noopener"><i class="fa fa-snowflake-o" style="font-size:inherit"></i> ' + website_visible + '</a><br><a href="' + linked_in + '" target="_blank" rel="noopener"><i class="fa fa-linkedin" style="font-size:inherit"></i> ' + linked_in_visible + '</a><br><a href="' + github + '" target="_blank" rel="noopener"><i class="fa fa-github" style="font-size:inherit"></i> ' + github_visible + '</a><br><a href="' + so + '" target="_blank" rel="noopener"><i class="fa fa-stack-overflow" style="font-size:inherit"></i> ' + so_visible + '</a>';
+    var blog = "https://blog.yadunandan.xyz";
+    var blog_visible = "blog.yadunandan.xyz";
+    var contact = '<a href="' + mailto + '" target="_blank" rel="noopener"><i class="fa fa-envelope" style="font-size:inherit"></i> ' + mailto_visible + '</a><br><a href="' + website + '" target="_blank" rel="noopener"><i class="fa fa-snowflake-o" style="font-size:inherit"></i> ' + website_visible + '</a><br><a href="' + linked_in + '" target="_blank" rel="noopener"><i class="fa fa-linkedin" style="font-size:inherit"></i> ' + linked_in_visible + '</a><br><a href="' + github + '" target="_blank" rel="noopener"><i class="fa fa-github" style="font-size:inherit"></i> ' + github_visible + '</a><br><a href="' + so + '" target="_blank" rel="noopener"><i class="fa fa-stack-overflow" style="font-size:inherit"></i> ' + so_visible + '</a><br><a href="' + blog + '" target="_blank" rel="noopener"><i class="fa fa-wordpress" style="font-size:inherit"></i> ' + blog_visible + '</a>';
     var commandLine = 'yadu@127.0.0.1$ ';
     var inputHtml = '<input type="text" id="contact" name="contact">';
     var arti = 0;
@@ -96,7 +98,7 @@ $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |  $$ |$$\\ $$   ____|
         if (text == "contact") {
             document.getElementById("contact").remove();
             var ph = document.getElementById("four-text").innerHTML;
-            document.getElementById("four-text").innerHTML = ph + "contact <br>     E: Could not open lock file /var/my/contact/lock - open (13: Permission denied) <br>    E: Unable to lock the contact directory (/var/my/contact/), are you root? <br>" + commandLine + inputHtml;
+            document.getElementById("four-text").innerHTML = ph + "contact <br>     (13: Permission denied) <br>    E: Unable to lock the contact directory (/my/awesome/contact/), are you root? <br>" + commandLine + inputHtml;
             document.getElementById("contact").addEventListener('input', processContinue);
             document.getElementById("contact").focus();
         } else if (text == 'sudocontact' || text == 'sudo contact') {
