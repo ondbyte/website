@@ -3,8 +3,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-    
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.min.js"></script>
+
+
+
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
     <title>Yadhunandan K S</title>
@@ -31,10 +32,11 @@
         }
 
         #pic {
-    float: right;
-    margin: -30px 0 0 0;
-    border-radius: 50%; /* Makes the element round */
-}
+            float: right;
+            margin: -30px 0 0 0;
+            border-radius: 50%;
+            /* Makes the element round */
+        }
 
 
         h1 {
@@ -115,23 +117,26 @@
             margin: 0;
             height: 15px;
         }
+
+        .floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff; /* Change button background color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
     </style>
 
-<script>
-    function downloadPDF() {
-        const pdf = new jsPDF();
-        const element = document.getElementById('page-wrap');
-        pdf.fromHTML(element, {
-            callback: function (pdf) {
-                pdf.save('yadunandan_cv.pdf');
-            }
-        });
-    }
-</script>
 </head>
 
 <body>
-    <button onclick="downloadPDF()">Download PDF</button>
+    <div id="download-parent" ><button id="download" class="floating-button">Download as PDF</button></div>
     <div id="page-wrap">
 
         <img src="images/yadu.jpg" alt="Photo of Cthulu" id="pic" />
@@ -147,15 +152,17 @@
                 Email: <a class="email" href="mailto:yadunandanworks@gmail.com">yadunandanworks@gmail.com</a><br />
                 Website: <a href="https://www.yadunandan.xyz">yadunandan.xyz</a><br />
                 GitHub: <a href="https://github.com/ondbyte">github.com/ondbyte</a><br />
-                Stack Overflow: <a href="https://stackoverflow.com/users/12341099/yadu">stackoverflow.com/users/12341099/yadu</a><br />
+                Stack Overflow: <a
+                    href="https://stackoverflow.com/users/12341099/yadu">stackoverflow.com/users/12341099/yadu</a><br />
                 Medium: <a href="https://medium.com/@yadunandan.xyz">medium.com/@yadunandan.xyz</a>
             </p>
-            
+
         </div>
 
         <div id="objective">
             <p>
-                I am a skilled software engineer with a strong technical foundation, having ~4 years of experience in IT, specializing
+                I am a skilled software engineer with a strong technical foundation, having ~4 years of experience in
+                IT, specializing
                 in Go-lang,TypeScript and Dart programming. With over four years of experience
                 in backend development, I excel at crafting efficient SQL queries. My expertise
                 extends to Java, JavaScript, TypeScript, and HTML, enhancing my ability to
@@ -286,7 +293,15 @@
         <div class="clear"></div>
 
     </div>
-
+    <script>
+        downloadButton = document.getElementById("download")
+        downloadButton.addEventListener("click",function(){
+            downloadButton.remove()
+            window.print()
+            parent = document.getElementById("download-parent")
+            parent.appendChild(downloadButton)
+        })
+    </script>
 </body>
 
 </html>
