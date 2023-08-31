@@ -119,24 +119,26 @@
         }
 
         .floating-button {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #007bff; /* Change button background color */
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-}
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            /* Change button background color */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            /* Add a subtle shadow */
+        }
     </style>
 
 </head>
 
 <body>
-    <div id="download-parent" ><button id="download" class="floating-button">Download as PDF</button></div>
+    <div id="download-parent"><button id="download" class="floating-button">Download as PDF</button></div>
     <div id="page-wrap">
 
         <img src="images/yadu.jpg" alt="Photo of Cthulu" id="pic" />
@@ -205,6 +207,16 @@
                     <li>Environment: Go-lang, mockery, nats-server, nats-go, MySQL, Gin, swaggo, Docker, AWS, Linux.
                     </li>
 
+                </ul>
+                <h2>Software Engineer at Geo Edu-Tech Services, Hyderabad, Telangana, India<span>May'2021 -
+                        Nov'2022</span></h2>
+                <ul>
+                    <li>Developed the front-end using Flutter for the mobile app and ReactJS for a part of the project.
+                    </li>
+                    <li>Implemented a Go-lang back-end licensing service for schools and a caching service using Google
+                        storage.</li>
+                    <li>Set up VM, NGINX, and a systemd process for the backend service.</li>
+                    <li>Environment: Go-lang, GCP, Firebase, Flutter.</li>
                 </ul>
 
                 <h2>Software Engineer at BigMints, Dubai, UAE<span>Oct 2020 - April 2021</span></h2>
@@ -295,7 +307,7 @@
     </div>
     <script>
         downloadButton = document.getElementById("download")
-        downloadButton.addEventListener("click",function(){
+        downloadButton.addEventListener("click", function () {
             downloadButton.remove()
             window.print()
             parent = document.getElementById("download-parent")
