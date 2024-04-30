@@ -119,7 +119,7 @@ function saySomethingAboutMe() {
     } else {
         allText += (desc);
         breakLine();
-        allText+=`<a href="./resume/index.html">Here you can download my cv</a>`
+        allText+=`<a href="./resume/YaduCV5.pdf">Here you can download my cv</a>`
         breakLine();
         breakLine();
         allText += "run command 'contact' to print my contact details to std-out (requires root)";
