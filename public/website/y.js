@@ -24,14 +24,14 @@ function dateDiff( str1, str2 ) {
 
 var speed = 10;
 var diff = dateDiff(new Date(1994,7,20),Date.now());
-var iam = 'Hi, I am Yadu(nandan).. '+diff.y+" years "+" and "+diff.d+" days old";
+var iam = 'Hi, I am Yadhu(nandan).. '+diff.y+" years "+" and "+diff.d+" days old";
 var iami = 0;
 
-var desc = "A software engineer, I like to design things mostly by code, Dart, Golang, Java, JavaScript & TypeScript are the languages I speak, always looking for better opportunities where I could play with noSQL DBs as well as relational DBs, I will containerize your apps and I'll maintain Linux <3 VM instances for you.";
+var desc = "A software engineer, I like to design things mostly by code, Dart, Golang, Java, JavaScript & TypeScript are the languages I speak, and like the opportunities where I could play with noSQL DBs as well as relational DBs, I will containerize your apps and I'll maintain Linux <3 VM instances for you.";
 var desci = 0;
 var mailto = 'mailto:iamyadunandan@gmail.com';
 var mailto_visible = 'Mail me';
-var website = 'http://www.yadunandan.xyz';
+var website = 'http://yadhunandan.me';
 var website_visible = 'My Website';
 var linked_in = 'https://in.linkedin.com/in/yadu';
 var linked_in_visible = 'My Linkedin';
@@ -39,7 +39,7 @@ var github = 'https://github.com/ondbyte';
 var github_visible = 'My Github';
 var so = 'https://stackoverflow.com/users/12341099/yadu';
 var so_visible = 'My StackOverflow';
-var blog = "https://medium.com/@yadunandan.xyz";
+var blog = "https://medium.com/@yadhunandan.me";
 var blog_visible = "My Medium blog";
 var contact = '<a href="' + mailto + '" target="_blank" rel="noopener"><i class="fa fa-envelope" style="font-size:inherit"></i> ' + mailto_visible + '</a><br><a href="' + website + '" target="_blank" rel="noopener"><i class="fa fa-snowflake-o" style="font-size:inherit"></i> ' + website_visible + '</a><br><a href="' + linked_in + '" target="_blank" rel="noopener"><i class="fa fa-linkedin" style="font-size:inherit"></i> ' + linked_in_visible + '</a><br><a href="' + github + '" target="_blank" rel="noopener"><i class="fa fa-github" style="font-size:inherit"></i> ' + github_visible + '</a><br><a href="' + so + '" target="_blank" rel="noopener"><i class="fa fa-stack-overflow" style="font-size:inherit"></i> ' + so_visible + '</a><br><a href="' + blog + '" target="_blank" rel="noopener"><i class="fa fa-wordpress" style="font-size:inherit"></i> ' + blog_visible + '</a>';
 var commandLine = 'yadu@127.0.0.1$ ';
@@ -119,7 +119,6 @@ function saySomethingAboutMe() {
     } else {
         allText += (desc);
         breakLine();
-        allText+=`<a href="./resume/YaduCV5.pdf">Here you can download my cv</a>`
         breakLine();
         breakLine();
         allText += "run command 'contact' to print my contact details to std-out (requires root)";
@@ -194,7 +193,7 @@ function processYesNo(event) {
     if (text == "yes") {
         artItOut();
     } else if (text == "no") {
-        allText += "aborting initialization of yadunandan.xyz, run command 'init' again to re initialize the website"+br+commandLine;
+        allText += "aborting initialization of yadhunandan.me, run command 'init' again to re initialize the website"+br+commandLine;
         getInput(initYadunandanXyz);
     } else {
         askYesOrNo(processYesNo);
@@ -245,7 +244,7 @@ function initYadunandanXyz(event) {
             document.getElementById("one-text").innerHTML = allText;
             getInput(initYadunandanXyz);
         } else if (command == "init") {
-            allText += command + br + "initializing yadunandan.xyz"
+            allText += command + br + "initializing yadhunandan.me"
             document.getElementById('one-text').innerHTML = allText;
             breakLine();
             askYesOrNo(processYesNo);
