@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "ondbyte-website",
     "public": "public",
     "ignore": [
       "firebase.json",
