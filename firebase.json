@@ -1,16 +1,18 @@
 {
   "hosting": {
     "site": "ondbyte-website",
-    "public": "public",
+    "public": "dist",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ],
-    "rewrites": [
+    "trailingSlash": true,
+    "redirects": [
       {
-        "source": "**",
-        "destination": "/index.html"
+        "source": "/website/:file*",
+        "destination": "/pre-ai/website/:file",
+        "type": 301
       }
     ]
   }
